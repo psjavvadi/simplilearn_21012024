@@ -1,0 +1,24 @@
+git config --global user.name psjavvadi 
+git config --global user.email psjavvadi@gmail.com
+git config --list
+
+git init
+git status
+
+git add <file name> // Single file 
+git add -A   // Multiple Files 
+
+git commit -m "Adding Stack Java File" 
+
+git remote add origin https://github.com/psjavvadi/simplilearn_21012024
+
+git push -u  -f origin master  // -u unrelated -f files  
+git pull origin master
+
+git branch <branch name> // Create Branch 
+git checkout <branch_name> 
+
+git merge <branch_name> // Merges the current branch to <branch_name> branch
+
+git fetch 
+git rebase origin/master
